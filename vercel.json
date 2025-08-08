@@ -3,7 +3,7 @@
   "name": "airtable-webhook-bridge",
   "functions": {
     "api/**/*.js": {
-      "runtime": "@vercel/node@latest"
+      "runtime": "@vercel/node"
     }
   },
   "headers": [
