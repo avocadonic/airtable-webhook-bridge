@@ -1,0 +1,26 @@
+{
+  "name": "airtable-webhook-bridge",
+  "version": "1.0.0",
+  "description": "Bridge SSE entre Airtable et serveur local generique",
+  "main": "api/webhook.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel",
+    "test": "curl $VERCEL_URL/api/status"
+  },
+  "keywords": [
+    "airtable",
+    "webhook",
+    "sse",
+    "server-sent-events",
+    "bridge",
+    "real-time"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14"
+  }
+}
